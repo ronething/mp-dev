@@ -1,0 +1,19 @@
+server:
+  host: "127.0.0.1:9090"
+  admin: true
+
+log:
+  level: "debug"
+
+third:
+  netease:
+    host: "http://127.0.0.1:8999"
+    searchLimit: 5
+
+wechat:
+  AppID: "xxxxx"
+  AppSecret: "xxxx"
+  Token: "xxxxxxx"
+  EncodingAESKey: ""
+  ipValidate: false
+  ThumbId: "xxxxxxxx" # 回复音乐消息需要指定缩略图 MediaId，可以上传一个永久素材然后填写此 id
