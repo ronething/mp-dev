@@ -32,9 +32,7 @@ usage:
 
 - 依赖环境
 
-    * go 1.14 (其他版本没有测试过)
-    * [NeteaseCloudMusicApi](https://github.com/Binaryify/NeteaseCloudMusicApi)
-    * [upx](https://github.com/upx/upx)
+    * go 1.13+ (其他版本没有测试过)
 
 - 测试
 
@@ -58,6 +56,10 @@ git clone https://github.com/ronething/mp-dev.git
 cd mp-dev && make deploy
 ```
 
+- 体验
+
+![](./asserts/wechatsearch.png)
+
 ### TODO
 
 - [x] 支持路由组 usage: /music/play/:sid
@@ -66,3 +68,6 @@ cd mp-dev && make deploy
 ### 致谢
 
 - [NeteaseCloudMusicApi](https://github.com/Binaryify/NeteaseCloudMusicApi)
+- [silenceper/wechat](https://github.com/silenceper/wechat)
+- [echo](https://github.com/labstack/echo)
+- [upx](https://github.com/upx/upx)
